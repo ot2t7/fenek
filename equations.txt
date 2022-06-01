@@ -1,0 +1,4 @@
+Wolfram Language Code: Solve[Sqrt[d^2 Cos[t]^2 + d^2 Sin[t]^2]/s == Sqrt[(-a + x - d Cos[t])^2 + (-b + y - d Sin[t])^2]/v, {d}]
+
+Plain Text: d = (sqrt(4 s^2 (a^2 - 2 a x + b^2 - 2 b y + x^2 + y^2) (-s^2 sin^2(t) - s^2 cos^2(t) + v^2) + s^4 (-2 a cos(t) - 2 b sin(t) + 2 x cos(t) + 2 y sin(t))^2) - s^2 (-2 a cos(t) - 2 b sin(t) + 2 x cos(t) + 2 y sin(t)))/(2 (-s^2 sin^2(t) - s^2 cos^2(t) + v^2))
+Plain Text: d = (s^2 (-(-2 a cos(t) - 2 b sin(t) + 2 x cos(t) + 2 y sin(t))) - sqrt(4 s^2 (a^2 - 2 a x + b^2 - 2 b y + x^2 + y^2) (-s^2 sin^2(t) - s^2 cos^2(t) + v^2) + s^4 (-2 a cos(t) - 2 b sin(t) + 2 x cos(t) + 2 y sin(t))^2))/(2 (-s^2 sin^2(t) - s^2 cos^2(t) + v^2))

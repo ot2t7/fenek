@@ -1,7 +1,6 @@
 mod craft;
 mod cruise;
 mod world;
-mod math;
 
 use craft::Craft;
 use cruise::intercept;
@@ -24,12 +23,12 @@ fn main() {
         velocity: 60
     });
 
-    
+    intercept(&world.crafts[0], &world.crafts[1]);
 
-    println!("{:?}", world);
+    //println!("{:?}", world);
     loop {
         tick(&mut world);
-        println!("{:?}", world);
+        //println!("{:?}", world);
         if world.contact == true {
             println!("contact!");
             break;
